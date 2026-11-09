@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Buku - Perpustakaan Digital</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">📚 Perpustakaan Digital</div>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a class="active" href="koleksi.html">Koleksi Buku</a>
+        <a href="tentang.html">Tentang</a>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Koleksi Buku</h1>
+    <p>Temukan buku favorit dan tambah koleksi perpustakaan.</p>
+</section>
+
+<section class="koleksi">
+
+    <div class="toolbar">
+        <input type="text" id="searchInput"
+        placeholder="Cari judul atau penulis buku...">
+
+        <button class="btn" onclick="tambahBuku()">
+            + Tambah Buku
+        </button>
+    </div>
+
+    <div class="book-container" id="bookContainer">
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Perpustakaan Digital</p>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
